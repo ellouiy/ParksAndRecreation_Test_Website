@@ -1,0 +1,111 @@
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  flex direction: row-reverse;
+}
+
+body
+{
+  font-family: 'Quicksand', cursive;
+  margin: 0;
+  background-color: #dca92b;
+}
+
+header
+{
+  position: fixed;
+  z-index: 1000px;
+  width: 100%;
+  background-color: teal;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+h1
+{
+  font-size: 50px;
+}
+
+.title
+{
+	margin-bottom: -120;
+}
+h3
+{
+  font-size: 30px;
+  text-align: center;
+}
+
+main
+{
+  display: inline-block;
+  text-align: center;
+
+}
+
+iframe
+{
+  padding-top: 10px;
+}
+
+p
+{
+    font-family: 'Quicksand', cursive;
+    font-size: 1em;
+    color: black;
+    text-align: justify;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+a
+{
+  font-family: 'Quicksand', cursive;
+  text-decoration: none;
+  color: white;
+  display: inline-flex;
+}
+
+a:hover
+{
+  background-color: grey;
+  border-radius: 10px;
+  border-style: dashed;
+}
+
+figure
+{
+    text-decoration: underline;
+}
+
+.HeaderImage
+{
+  margin: 0;
+}
+.Navigation
+{
+  padding-top: 10px;
+  text-align: center;
+  display: inline-flex;
+
+}
+
+.Extras
+{
+  display: inline-flex;
+}
+.Navigation > li
+{
+  padding-right: 30px;
+}
+
+footer
+{
+
+  background-color: #68AF6D;
+  text-align: center;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
